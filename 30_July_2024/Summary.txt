@@ -1,0 +1,43 @@
+------------------------- java coding --------------------
+
+change char to int :
+
+                      char ch='6';
+                      int x= ch - '0';  //returns output 6
+
+                         char ch='4';
+	                 int x=(int)(ch); //returns ascii value i.e; 52
+
+change int to char:
+
+                        int x=55;
+	                char ch=(char)(x);
+
+change string to int:
+
+                       String s="12";
+                       int x=Integer.valueOf(s);
+
+change int to string:
+
+                       int x=15;
+                       String s=String.valueOf(x);
+
+change fahrenhiet to celcius: 
+                           
+                               celcius=((fahrenhiet-32)*5)/9;
+
+swap numbers without using third variable:
+
+                            int x; int y;
+                            x=x+y;
+                            y=x-y;
+                            x=x-y;
+
+conversion example:
+
+                String s="32";
+	        char ch=s.charAt(0);
+                int x=Integer.valueOf(s);
+	 	System.out.println(x * 2); //output 64
+		System.out.println((ch-'0') * 2); //output 6
